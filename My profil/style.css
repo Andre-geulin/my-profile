@@ -9,34 +9,34 @@ body {
 }
 
 h1{
-	color: bla;
 	font-family: helvetica;
-	font-weight: lighter;
+	font-weight: bold;
 	text-transform: uppercase;
-	letter-spacing: 10px;
+	letter-spacing: 5px;
 	font-size: 32px
-
 }
-h2{
-	color: green;
-	font-family: helvetica;
-	font-weight: lighter;
-	text-transform: uppercase;
-	font-size: 24px
 
+h2{
+	color: #6B72E1;
+	font-family: helvetica;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 a{
 	text-decoration: none;
+
 }
+
 a:hover{
 	color: red;
 }
+
 div{
 	background: white;
-	padding: 60px;
-	margin: 50px;
-	box-shadow: 0px 10px 30px rgba(0,0,0.1);
+	padding: 50px;
+	margin: 30px 50px;
+	box-shadow: 0px 10px 10px rgba(0,0,0.1);
 	border-radius: 5px
 }
 
@@ -47,23 +47,48 @@ div{
 .img-circle{
 	width: 100px;
 	border-radius : 50px;
-
 }
-
-@media(max-width: 500px) {
-
-	.container{
-		width: 300px;
-	}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
 }
-
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
 
 .card-white{
 	background-color: white
 	padding: 40px
 	box-shadow: 0px 10px 30px rgba(0,0,0.1);
-	border-radius: 4px
+	border-radius: 4px;
+	text-align: center;
 }
 
+.btn-blue{
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
 
+.list-inline{
+	list-style: none;
+	padding-left : 0px; 
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+
+}
+#intro p{
+	margin-bottom: 50px;
+}
 
